@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<iostream>
+using namespace std;
 #include "IApplication.hpp"
 
 using namespace My;
@@ -20,6 +22,6 @@ int main(int argc, char** argv) {
         }
 
         g_pApp->Finalize();
-
+        cout<<1<<endl;
         return 0;
 }
